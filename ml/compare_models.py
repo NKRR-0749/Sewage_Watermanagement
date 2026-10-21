@@ -1,6 +1,11 @@
-import pandas as pd
 import os
+import sys
 import time
+import pandas as pd
+
+# Ensure project root is in sys.path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from agents.monitoring_agent import MonitoringAgent
 
 def compare_systems():

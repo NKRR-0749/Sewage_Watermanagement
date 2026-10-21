@@ -18,6 +18,7 @@ class SensorAgent:
         }
         # Keep track of previous readings for temporal analysis later
         self.previous_readings = None
+        self.step_count = 0
 
     def generate_readings(self):
         """
