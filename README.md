@@ -15,6 +15,7 @@ This project is a Python-based **Multi-Agent System (MAS)** simulation using the
 3. Generate Visualizations: python visualize.py
 4. Calculate Metrics: python utils/metrics.py
 5. Compare Rule-Based vs ML: python ml/compare_models.py
+6. Purify real polluted water through the phase agents (S1 Screening -> S2 Primary -> S3 Secondary -> S4 Chemical -> S5 Tertiary -> PureWaterAgent): python treatment_pipeline.py
 "@
 
 Set-Content -Path "REPORT_MATERIAL.md" -Value @"
